@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>COLLATE</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+
+		<link rel="stylesheet"  href="css/jquery.mobile.structure.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.theme.css" />
+
+		<script>
+			var userAgent = navigator.userAgent + '';
+			if (userAgent.indexOf('iPhone') > -1) {
+				document.write('<script src="js/lib/cordova-iphone.js"></sc' + 'ript>');
+				var mobile_system = 'iphone';
+			} else if (userAgent.indexOf('Android') > -1) {
+				document.write('<script src="js/lib/cordova-android.js"></sc' + 'ript>');
+				var mobile_system = 'android';
+			} else {
+				var mobile_system = '';
+			}
+		</script>
+
+		<script src="js/lib/jquery.js"></script>
+		<!-- your scripts here -->
+		<script src="js/app/app.js"></script>
+		<script src="js/app/bootstrap.js"></script>
+		<script src="js/lib/jquery.mobile.js"></script>
+		<style>
+			.ui-selectmenu.ui-popup .ui-input-search {
+				margin-left: .5em;
+				margin-right: .5em;
+			}
+			.ui-selectmenu.ui-dialog .ui-content {
+				padding-top: 0;
+			}
+			.ui-selectmenu.ui-dialog .ui-selectmenu-list {
+				margin-top: 0;
+			}
+			.ui-selectmenu.ui-popup .ui-selectmenu-list li.ui-first-child .ui-btn {
+				border-top-width: 1px;
+				-webkit-border-radius: 0;
+				border-radius: 0;
+			}
+			.ui-selectmenu.ui-dialog .ui-header {
+				border-bottom-width: 1px;
+			}
+			a {
+				text-decoration: none;
+			}
+		</style>
+
+	</head>
+	<body>
+
+<div data-role="page" id="landingPage" style="background: white">
+
+			<div data-role="header" style="text-shadow: none">
+				<h1>AshNav</h1>
+                <a href="#landingPage" data-icon="home" data-iconpos="notext" style="background: white;border: none;">Home</a>
+                
+            </div><!-- /header -->
+            <img src="WEL.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(132, 107, 72);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					WELCOME TO ASHESI UNIVERSITY!
+                    </div> </a>
+                <p>At Ashesi, we believe that Africa’s future will depend on enlightened leadership. We educate such leaders through an academic program steeped in the liberal arts and sciences -designed in collaboration with some of the world's best universities and in partnership with local and multinational organizations across Ghana.</p>
+                
+                <a href="#home" data-transition="flip">Let's take a tour of Ashesi</a>
+                </div> 
+               	<br />
+        
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+
+<div data-role="page" id="home" style="background: white">
+    <div data-role="header" style="text-shadow: none">
+				<h1>AshNav</h1>
+				<a href="#landingPage" data-icon="home" data-iconpos="notext" style="background: white;border: none;">Home</a>
+			</div><!-- /header -->
+            <img src="ASH.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(176, 172, 99);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					ASHESI UNIVERSITY!
+				</div>
+                  <p>Set on a 100 stunning acres overlooking Ghana's capital city Accra, Ashesi's campus unites traditional African design, modern technology and a commitment to environmental sustainability to create an inspiring base for young Africans to live, collaborate and study.</p>  
+                <p> LET'S TOUR ASHESI!</p>
+                <a href="#admin" data-transition="flip">Admin</a></br>
+                <a href="#lib" data-transition="fade">Library</a></br>
+                <a href="#lec" data-transition="turn">Lecture hall</a></br>
+                <a href="#hang" data-transition="slide">Hangout</a></br>
+                <a href="#cafe" data-transition="flow">cafeteria</a></br>
+                <a href="#host" data-transition="slideup">Hostels</a></br>
+                 
+               	</div> 
+               	<br />
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+<div data-role="page" id="admin" style="background: white">
+    
+<div data-role="header" style="text-shadow: none">
+    <h1>AshNav</h1>
+				<a href="#landingPage" data-icon="home" data-iconpos="notext" style="background: white;border: none;">Home</a>
+			</div><!-- /header -->
+            <img src="ADMN.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(176, 172, 99);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					ASHESI ADMINISTRATION BLOCK!
+				</div> 
+                <p>This is where all the administartion work happens. This includes admission offices, student and community welfare, finance, registray and international Programs and diversity office</p>
+                <p>All these office face a courtyard of sweet smelling flowers where most community wide gatherings are held</p>
+                <a href="#home" data-transition="flip">Home</a></br>
+                <a href="#lib" data-transition="flow">Library</a></br>
+                <a href="#lec" data-transition="slidedown">Lecture hall</a></br>
+                <a href="#hang" data-transition="fade">Hangout</a></br>
+                <a href="#cafe" data-transition="turn">cafeteria</a></br>
+                <a href="#host" data-transition="slide">Hostels</a></br>
+                </div> 
+               	<br />
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+<div data-role="page" id="lib" style="background: white">
+    
+			<div data-role="header" style="text-shadow: none">
+				<h1>AshNav</h1>
+				<a href="#landingPage" data-icon="home" data-iconpos="notext" style="background: white;border: none;">Home</a>
+			</div><!-- /header -->
+            <img src="LIB.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(176, 172, 99);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					TOBB WARREN LIBRARY!
+				</div> 
+                <p>Todd and Warren Library provides students, faculty and staff with a quiet space to do personal studies and research aith a lot of both physical and online resources.</p>
+                <P>Other services at the library include printing, typing, scanning, photocopying and binding of work.</P>
+                <p>There are also mini seminar rooms upstairs where tutoring takes place.</p>
+               <a href="#admin" data-transition="turn">Home</a></br>
+                <a href="#admin" data-transition="pop">Admin</a></br>
+                <a href="#lec" data-transition="flow">Lecture hall</a></br>
+                <a href="#hang" data-transition="flip">Hangout</a></br>
+                <a href="#cafe" data-transition="fade">cafeteria</a></br>
+                <a href="#host" data-transition="slide">Hostels</a></br>
+                </div> </a>
+               	<br />
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+<div data-role="page" id="lec" style="background: white">
+    
+			<div data-role="header" style="text-shadow: none">
+				<h1>AshNav</h1>
+				<a href="#landingPage" data-icon="home" data-iconpos="notext" style="background: white;border: none;">Home</a>
+			</div><!-- /header -->
+            <img src="LEC.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(176, 172, 99);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					MODERN LECTURE HALLS!
+				</div> 
+                <p>Ashesi has modern lecture halls that have a capacity of 80 people. They are in a conference design to encourage perticipation and discussions amongs students.</p>
+                <a href="#Home" data-transition="flow">Home</a></br>
+                <a href="#admin" data-transition="slide">Admin</a></br>
+                <a href="#lib" data-transition="flip">Library</a></br>
+                <a href="#hang" data-transition="fade">Hangout</a></br>
+                <a href="#cafe" data-transition="slide">cafeteria</a></br>
+                <a href="#host" data-transition="slideup">Hostels</a></br>
+                </div> 
+               	<br />
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+<div data-role="page" id="hang" style="background: white">
+    
+			<div data-role="header" style="text-shadow: none">
+				<h1>AshNav</h1>
+				<a href="#home" data-icon="landingPage" data-iconpos="notext" style="background: white;border: none;">Home</a>
+			</div><!-- /header -->
+            <img src="HANG.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(176, 172, 99);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					STUDENTS' LOUNGES!
+				</div> 
+                <p>Student's hangouts allow spaces for students to relax and have meetings during their free times. They are also awesome mini party grounds.</p>
+                <a href="#Home" data-transition="turn">Home</a></br>
+                <a href="#admin" data-transition="slidedown">Admin</a></br>
+                <a href="#lib" data-transition="turn">Library</a></br>
+                <a href="#lec" data-transition="flow">Lecture hall</a></br>
+                <a href="#cafe" data-transition="flip">cafeteria</a></br>
+                <a href="#host" data-transition="slide">Hostels</a></br>
+                </div> 
+               	<br />
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+<div data-role="page" id="host" style="background: white">
+    
+			<div data-role="header" style="text-shadow: none">
+				<h1>AshNav</h1>
+				<a href="#landingPage" data-icon="home" data-iconpos="notext" style="background: white;border: none;">Home</a>
+			</div><!-- /header -->
+            <img src="HOST.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(176, 172, 99);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					STUDENT RESIDENCE!
+				</div> 
+                <p>Ashesi student's hostels are of modern design with spectacular finishing. This on campus facilities can accommodate upto 500 students. </p>
+                <p>Within the students' residence, there are other facilities including volleybal and basket ball court to ensure an all rounded environment.</p>
+                <a href="#Home" data-transition="flow">Home</a></br>
+                <a href="#admin" data-transition="fade">Admin</a></br>
+                <a href="#lib" data-transition="pop">Library</a></br>
+                <a href="#lec" data-transition="slideup">Lecture hall</a></br>
+                <a href="#cafe" data-transition="slidedown">cafeteria</a></br>
+                <a href="#hang" data-transition="turn">Hangout</a></br>
+                </div> </a>
+               	<br />
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+<div data-role="page" id="cafe" style="background: white">
+    			<div data-role="header" style="text-shadow: none">
+				<h1>AshNav</h1>
+				<a href="#landingPage" data-icon="home" data-iconpos="notext" style="background: white;border: none;">Home</a>
+			</div><!-- /header -->
+            <img src="CAFE.jpg" />
+			<div data-role="content" style="text-shadow: none">
+				<div style="background: rgb(176, 172, 99);color:white; text-align:center; font-weight:bolder; padding: 20px;box-shadow: 5px 5px 5px grey;">
+					CAFETERIA!
+				</div> 
+                <p>Enjoy both local and continental delicacies at the Ashesi Cafeterias. They are open for the Ashesi Community as well as visitors. </p>
+                <p>You can pay for your meals either using cash or scanning your ashesi card if you have registered for a meal plan.</p>
+                <a href="#Home" data-transition="flip">Home</a></br>
+                <a href="#admin" data-transition="flow">Admin</a></br>
+                <a href="#lib" data-transition="slide">Library</a></br>
+                <a href="#lec" data-transition="fade">Lecture hall</a></br>
+                <a href="#hang" data-transition="slide">Hangout</a></br>
+                <a href="#host" data-transition="pop">Hostels</a></br>
+                </div> 
+               	<br />
+
+			</div><!-- /content -->
+		</div><!-- /page -->
+
+
+
+	</body>
+	<script>
+		$.mobile.document
+		// "filter-menu-menu" is the ID generated for the listview when it is created
+		// by the custom selectmenu plugin. Upon creation of the listview widget we
+		// want to prepend an input field to the list to be used for a filter.
+		.on("listviewcreate", "#filter-menu-menu", function(e) {
+			var input,
+			    listbox = $("#filter-menu-listbox"),
+			    form = listbox.jqmData("filter-form"),
+			    listview = $(e.target);
+			// We store the generated form in a variable attached to the popup so we
+			// avoid creating a second form/input field when the listview is
+			// destroyed/rebuilt during a refresh.
+			if (!form) {
+				input = $("<input data-type='search'></input>");
+				form = $("<form></form>").append(input);
+				input.textinput();
+				$("#filter-menu-listbox").prepend(form).jqmData("filter-form", form);
+			}
+			// Instantiate a filterable widget on the newly created listview and
+			// indicate that the generated input is to be used for the filtering.
+			listview.filterable({
+				input : input
+			});
+		})
+		// The custom select list may show up as either a popup or a dialog,
+		// depending how much vertical room there is on the screen. If it shows up
+		// as a dialog, then the form containing the filter input field must be
+		// transferred to the dialog so that the user can continue to use it for
+		// filtering list items.
+		//
+		// After the dialog is closed, the form containing the filter input is
+		// transferred back into the popup.
+		.on("pagebeforeshow pagehide", "#filter-menu-dialog", function(e) {
+			var form = $("#filter-menu-listbox").jqmData("filter-form"),
+			    placeInDialog = (e.type === "pagebeforeshow" ),
+			    destination = placeInDialog ? $(e.target).find(".ui-content") : $("#filter-menu-listbox");
+			form.find("input")
+			// Turn off the "inset" option when the filter input is inside a dialog
+			// and turn it back on when it is placed back inside the popup, because
+			// it looks better that way.
+			.textinput("option", "inset", !placeInDialog).end().prependTo(destination);
+		});
+	</script>
+</html>
