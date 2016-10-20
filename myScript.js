@@ -22,7 +22,7 @@
 				alert("encoding failed: " + fail);
 			});
 		document.getElementById("geolocationdata")addEventListener("click",function(){
-            navigator.geolocation.getCurrentLocation(onSuccess, onError, {enableHighAccuracy:true});
+            navigator.geolocation.getCurrentPosition(onSuccess, onError, {enableHighAccuracy:true});
         });
 		var watchID = navigator.geolocation.watchPosition(onSuccess, onError, {
 			timeout: 30000
